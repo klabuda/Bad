@@ -1,0 +1,40 @@
+As soon as I read that a text adventure game was an acceptable submission for this project. I knew that was what 
+I wanted to do. When I was younger, I was very into these games, and I thought it would be fun to revisit them. 
+Unfortunately, I am not very creative. I had no idea what a good subject for a game would be or how I would go 
+about writing it. I knew I could write the code, but the story was beyond me. 
+
+Another large part of my childhood was the video game series, Myst. My younger sister and I used to spend hours 
+and hours playing this puzzle game together. For my birthday this year, my sister gave me a copy of The Myst 
+Reader, which contains The Book of Atrus, The Book of Ti'ana, and The Book of D'ni. I had never heard of it 
+before, but I was excited to get back into the series. I also found all the games on Steam and started playing 
+them again. To my delight, I found the games just as compelling as I did the first time around. Although, it was 
+sad to not be able to play with my sister now that we no longer live together. In the first game of the series, 
+just called, Myst, there is an “age”, or world, called “Channelwood”. In this age you explore a forest of giant 
+trees. I thought it might be possible to convert this part of the game into a text adventure.
+
+Now that I had my story, I needed to plan out the map and writing for each “room”. I spent a long time trying to 
+turn the twisting paths into an easily mappable grid, but in the end, I think I was successful. Once I had the 
+world mapped out, I need to write out a description for each room. I started a text file and just went through 
+room by room. Unfortunately, I think I got repetitive at times, and my descriptions in no way do justice to the 
+original. Still, I now had a completed story outline, so theoretically the only thing left to do was write the 
+program. The easy part, yay!
+
+I wanted to write my program in Python. While I just learned Python this semester, I was already familiar with 
+Object Oriented programming, so it was comfortable for me. I decided to make the entire world a class with class 
+variables (mostly Boolean values) to describe the state of objects inside the world. I created another class for 
+the switches since I had a lot of them, and their values were going to be more complicated than on and off. 
+Inside the switch class is an accessor and mutator and an equals overload. Inside my world class I created 
+classes for each of the 42 rooms (plus extra states for some of them), a class to print the goals, and a class 
+to ask for input. Then last, but certainly not least, I created my main class, which created a new world and, 
+once the player completed it, asked if they would like to play again.
+
+The last step of this project was the testing and troubleshooting. This step was by far the longest step. I had 
+to go through each room and make sure each option worked as I expected it to. I caught a lot of mistakes in code 
+I thought was okay, and I am sure there are still more in there. I had to make a walkthrough for myself as part 
+of the testing, so if you’re interested in playing the whole thing here it is: 
+155531241414151211321212222121512221333131122423141121122231211112233514423534121122221
+
+This project challenged me to take my knowledge of Python and apply it to something in the “real world”. I would 
+have liked to eventually read all my data off a csv file, but honestly, I just ran out of time. If I had any 
+advice to give to my past self, it would be to start on this project way earlier. I enjoyed making this game, 
+and even though it might not be perfect, I am proud of it.
